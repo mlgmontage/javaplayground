@@ -3,16 +3,6 @@ package DataStructure;
 public class LinkedList {
   Node head;
 
-  static class Node {
-    int data;
-    Node next;
-
-    Node(int value) {
-      data = value;
-      next = null;
-    }
-  }
-
   public static LinkedList insert(LinkedList list, int value) {
     Node node = new Node(value);
 

@@ -10,3 +10,4 @@
 
 - hello world `hello.java`
 - array sum `array_sum.java`
+- Linked List sum `DataStructure/LinkedListSum.java`
