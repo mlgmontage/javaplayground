@@ -8,6 +8,7 @@
 
 - Binary Tree `DataStructure/BinaryTree.java`
   -- Insertion
+  -- Traversing
 
 ### Warmup
 

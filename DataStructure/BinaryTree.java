@@ -26,12 +26,25 @@ public class BinaryTree {
     return root;
   }
 
+  public void print() {
+    printRec(root);
+  }
+
+  public void printRec(BTreeNode node) {
+    if (node != null) {
+      printRec(node.left);
+      System.out.println(node.data);
+      printRec(node.right);
+    }
+  }
+
   public static void main(String[] args) {
     BinaryTree bst = new BinaryTree();
     bst.insert(1);
     bst.insert(2);
     bst.insert(3);
     bst.insert(4);
-    System.out.println("Binary Tree root: " + bst.root.data);
+    System.out.println("Binary Tree: ");
+    bst.print();
   }
 }
