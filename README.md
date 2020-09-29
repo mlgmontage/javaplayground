@@ -3,6 +3,7 @@
 ### Data structures
 
 - Linked List `DataStructure/LinkedList.java`
+  -- Insertion
 
 ### Warmup
 

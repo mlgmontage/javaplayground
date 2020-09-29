@@ -13,10 +13,29 @@ public class LinkedList {
     }
   }
 
+  public static LinkedList insert(LinkedList list, int value) {
+    Node node = new Node(value);
+
+    if (list.head == null) {
+      list.head = node;
+    } else {
+
+      Node current = list.head;
+      while (current.next != null) {
+        current = current.next;
+      }
+
+      current.next = node;
+    }
+    return list;
+  }
+
   public static void main(String[] args) {
     LinkedList linked = new LinkedList();
-    linked.head = new Node(3);
-    linked.head.next = new Node(5);
+
+    LinkedList.insert(linked, 8);
+    LinkedList.insert(linked, 13);
+
     System.out.println("linked head: " + linked.head.data);
     System.out.println("linked head's next: " + linked.head.next.data);
   }
