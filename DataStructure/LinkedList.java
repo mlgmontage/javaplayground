@@ -30,13 +30,24 @@ public class LinkedList {
     return list;
   }
 
+  public static void print(LinkedList list) {
+    Node current = list.head;
+    System.out.print("Linked list: ");
+
+    while (current != null) {
+      System.out.print(current.data + " -> ");
+      current = current.next;
+    }
+    System.out.print("\n");
+  }
+
   public static void main(String[] args) {
     LinkedList linked = new LinkedList();
 
     LinkedList.insert(linked, 8);
     LinkedList.insert(linked, 13);
 
-    System.out.println("linked head: " + linked.head.data);
-    System.out.println("linked head's next: " + linked.head.next.data);
+    LinkedList.print(linked);
+
   }
 }

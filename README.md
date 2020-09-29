@@ -4,6 +4,7 @@
 
 - Linked List `DataStructure/LinkedList.java`
   -- Insertion
+  -- Traversing
 
 ### Warmup
 
