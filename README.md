@@ -10,6 +10,12 @@
   -- Insertion
   -- Traversing
 
+### Algorithms
+
+#### Searching
+
+- Linear search `LinearSearch.java`
+
 ### Problems
 
 - hello world `hello.java`
