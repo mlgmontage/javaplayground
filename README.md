@@ -22,4 +22,5 @@
 - hello world `hello.java`
 - array sum `array_sum.java`
 - Linked List sum `DataStructure/LinkedListSum.java`
+- Linked List node counter `DataStructure/LinkedListNodeCounter.java`
 - Binary Tree sum `DataStructure/BinaryTreeSum.java`
