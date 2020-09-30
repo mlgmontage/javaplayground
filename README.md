@@ -11,6 +11,7 @@
 - Binary Tree `DataStructure/BinaryTree.java`
   - Insertion
   - Traversing
+  - Searching
 
 ### Algorithms
 

@@ -7,6 +7,27 @@ public class BinaryTree {
     root = null;
   }
 
+  public BTreeNode search(int value) {
+    return searchRec(this.root, value);
+  }
+
+  public BTreeNode searchRec(BTreeNode root, int value) {
+    if (root == null)
+      return null;
+    if (root.data == value)
+      return root;
+
+    if (root.data > value) {
+      return searchRec(root.left, value);
+    }
+
+    if (root.data < value) {
+      return searchRec(root.right, value);
+    }
+
+    return null;
+  }
+
   public void insert(int value) {
     root = insertRec(root, value);
   }
@@ -45,6 +66,12 @@ public class BinaryTree {
     bst.insert(3);
     bst.insert(4);
     System.out.println("Binary Tree: ");
+
+    BTreeNode found = bst.search(3);
+
+    if (found != null) {
+      System.out.println("Found value: " + found.data);
+    }
     bst.print();
   }
 }
