@@ -20,6 +20,19 @@ public class LinkedList {
     return list;
   }
 
+  public static Node search(LinkedList list, int value) {
+    Node current = list.head;
+
+    while (current != null) {
+      if (current.data == value) {
+        return current;
+      }
+      current = current.next;
+    }
+
+    return null;
+  }
+
   public static void print(LinkedList list) {
     Node current = list.head;
     System.out.print("Linked list: ");
@@ -36,6 +49,9 @@ public class LinkedList {
 
     LinkedList.insert(linked, 8);
     LinkedList.insert(linked, 13);
+
+    Node val = LinkedList.search(linked, 13);
+    System.out.println("Found value: " + val.data);
 
     LinkedList.print(linked);
 

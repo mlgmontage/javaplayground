@@ -5,6 +5,7 @@
 - Linked List `DataStructure/LinkedList.java`
   -- Insertion
   -- Traversing
+  -- Searching
 
 - Binary Tree `DataStructure/BinaryTree.java`
   -- Insertion
