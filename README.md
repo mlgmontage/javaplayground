@@ -3,13 +3,14 @@
 ### Data structures
 
 - Linked List `DataStructure/LinkedList.java`
-  -- Insertion
-  -- Traversing
-  -- Searching
+
+  - Insertion
+  - Traversing
+  - Searching
 
 - Binary Tree `DataStructure/BinaryTree.java`
-  -- Insertion
-  -- Traversing
+  - Insertion
+  - Traversing
 
 ### Algorithms
 
@@ -24,8 +25,8 @@
 
 ### Problems
 
-- hello world `hello.java`
-- array sum `array_sum.java`
+- Hello world `hello.java`
+- Array sum `array_sum.java`
 - Linked List sum `DataStructure/LinkedListSum.java`
 - Linked List node counter `DataStructure/LinkedListNodeCounter.java`
 - Binary Tree sum `DataStructure/BinaryTreeSum.java`
