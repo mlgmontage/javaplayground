@@ -15,6 +15,7 @@
 #### Searching
 
 - Linear search `LinearSearch.java`
+- Binary search `BinarySearch.java`
 
 ### Problems
 
