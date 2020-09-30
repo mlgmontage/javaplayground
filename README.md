@@ -17,6 +17,10 @@
 - Linear search `LinearSearch.java`
 - Binary search `BinarySearch.java`
 
+#### Sorting
+
+- Bubble sort `BubbleSort.java`
+
 ### Problems
 
 - hello world `hello.java`
