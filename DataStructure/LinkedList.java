@@ -44,16 +44,25 @@ public class LinkedList {
     System.out.print("\n");
   }
 
+  public static void printRec(Node head) {
+    if (head != null) {
+      System.out.print(head.data + " -> ");
+      printRec(head.next);
+    }
+  }
+
   public static void main(String[] args) {
     LinkedList linked = new LinkedList();
 
     LinkedList.insert(linked, 8);
     LinkedList.insert(linked, 13);
+    LinkedList.insert(linked, 25);
+    LinkedList.insert(linked, 33);
 
     Node val = LinkedList.search(linked, 13);
     System.out.println("Found value: " + val.data);
 
-    LinkedList.print(linked);
+    LinkedList.printRec(linked.head);
 
   }
 }
