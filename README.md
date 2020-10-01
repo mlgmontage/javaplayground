@@ -32,3 +32,4 @@
 - Linked List node counter `DataStructure/LinkedListNodeCounter.java`
 - Binary Tree sum `DataStructure/BinaryTreeSum.java`
 - Binary Tree to List `DataStructure/BinaryTreeToList.java`
+- Binary Tree node counter `DataStructure/BinaryTreeNodeCounter.java`
