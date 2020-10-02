@@ -37,3 +37,4 @@
 - Consistent brackets `ConsistentBrackets.java`
 - Decompressed Array `DecompressedArray.java`
 - Split a String in Balanced Strings `BalancedStrings.java`
+- Balanced Brackets using Stack `BalancedBrackets.java`
