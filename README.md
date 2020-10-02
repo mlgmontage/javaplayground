@@ -40,3 +40,4 @@
 - Balanced Brackets using Stack `BalancedBrackets.java`
 - Inverting a Binary Tree `BinaryTreeInversion.java`
 - A defanged IP address `DefangedIP.java`
+- Sum all triplets `SumTriplets.java`
