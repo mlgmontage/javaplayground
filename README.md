@@ -42,3 +42,4 @@
 - A defanged IP address `DefangedIP.java`
 - Sum all triplets `SumTriplets.java`
 - FizzBuzz problem `FizzBuzz.java`
+- Print All Sub-Arrays `printAllSubArrays.java`
