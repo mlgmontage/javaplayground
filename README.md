@@ -47,3 +47,4 @@
 - Valid Palindrome `ValidPalindrome.java`
 - Print word-by-word `WordByWord.java`
 - Find characters `FindCharacters.java`
+- Frequency counter `FrequencyCounter.java`
