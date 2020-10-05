@@ -49,3 +49,4 @@
 - Find characters `FindCharacters.java`
 - Frequency counter `FrequencyCounter.java`
 - Fibonacci sequence `FibonacciSequence.java`
+- Tri-Fibonacci sequence `TriFibonacciSequence.java`
