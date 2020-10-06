@@ -50,3 +50,4 @@
 - Frequency counter `FrequencyCounter.java`
 - Fibonacci sequence `FibonacciSequence.java`
 - Tri-Fibonacci sequence `TriFibonacciSequence.java`
+- Maximum subarray sum `MaximumSubarraySum.java`
