@@ -56,3 +56,4 @@
 - Nth element of arithmetic sequence `NthElementArithmetic.java`
 - Max consecutive ones `MaxConsecutive.java`
 - Consecutive characters `ConsecutiveCharacters.java`
+- Find Lucky Integer `FindLuckyInteger.java`
