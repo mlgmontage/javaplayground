@@ -54,3 +54,4 @@
 - Print All Sub-Arrays 2 `PrintAllSubArrays2.java`
 - Range sum array `RangeSumArray.java`
 - Nth element of arithmetic sequence `NthElementArithmetic.java`
+- Max consecutive ones `MaxConsecutive.java`
