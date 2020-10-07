@@ -55,3 +55,4 @@
 - Range sum array `RangeSumArray.java`
 - Nth element of arithmetic sequence `NthElementArithmetic.java`
 - Max consecutive ones `MaxConsecutive.java`
+- Consecutive characters `ConsecutiveCharacters.java`
